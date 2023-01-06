@@ -40,4 +40,8 @@ Chatter currently supports:
 The main framework that Chatter uses is  [Tauri](https://tauri.app), a [Node.js](https://nodejs.org) package. To build it, download Node.js and NPM, clone or download the repo and run ``npm run tauri build``. This will build the app for your OS (Windows, macOS, Linux).
 
 ### Images
-TBA
+![picture of Chatter main menu](https://i.imgur.com/oMADzYZ.png)
+
+![picture of WhatsApp login open in Chatter](https://i.imgur.com/WytEml1.png7)
+
+![picture of Microsoft Teams open in Chatter](https://i.imgur.com/F7w8mlb.png)
