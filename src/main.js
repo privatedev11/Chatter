@@ -15,3 +15,5 @@ window.addEventListener("DOMContentLoaded", () => {
     .querySelector("#greet-button")
     .addEventListener("click", () => greet());
 });
+
+
