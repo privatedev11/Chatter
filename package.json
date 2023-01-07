@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.2"
+  },
+  "dependencies": {
+    "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store"
   }
 }

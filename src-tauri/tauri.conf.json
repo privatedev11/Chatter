@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Chatter",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -20,7 +20,7 @@
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
+      "category": "SocialNetworking",
       "copyright": "",
       "deb": {
         "depends": []
@@ -64,7 +64,17 @@
         "resizable": true,
         "title": "Chatter",
         "width": 800
-      }
-    ]
+
+        
+      }      
+    ],
+    "updater": {
+      "active": true,
+      "endpoints": [
+          "https://raw.githubusercontent.com/privatedev11/Chatter/main/tauriupdate.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVBNjIyM0YxNkYwMzU5QjQKUldTMFdRTnY4U05pNmxpaGJEbXBDeU5jU09DQ1FJV0VjSXNyQzBPaEFyQ2VhKyt5S2NGcUl4ZUoK"
+  }
   }
 }

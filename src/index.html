@@ -3,6 +3,20 @@
 <head>
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-indigo.min.css" /> 
 
+<style>
+    body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+
 </head>
 <html>
     <title>Chatter</title>
@@ -11,6 +25,15 @@
 
     <h1 style="text-align:center;vertical-align:middle;">Welcome to Chatter</h1>
     <h3 style="text-align:center;vertical-align:middle;">Choose an app.</h3>
+    
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
      
     <div class="app-buttons">
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="window.location.href='https://web.whatsapp.com';">
