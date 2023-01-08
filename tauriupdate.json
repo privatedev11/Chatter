@@ -1,4 +1,4 @@
-{
+ 
     "version": "v1.0.0",
     "notes": "First Release!",
     "pub_date": "2023-01-06T04:25:57Z",
@@ -7,5 +7,19 @@
         "signature": "",
         "url": "https://github.com/privatedev11/Chatter/releases/download/v1.0.0/Chatter_1.0.0_x64_en-US.msi"
       }
-    }
-  }
+    },
+  
+    {
+      "version": "v1.0.1",
+      "notes": "When an update is released, you get a notification.",
+      "pub_date": "2023-01-08T04:46:57Z",
+      "platforms": {
+       "windows-x86_64": {
+          "signature": "",
+          "url": "https://github.com/privatedev11/Chatter/releases/download/v1.0.1/Chatter_1.0.1_x64_en-US.msi"
+        }
+      }
+}
+  
+
+  
