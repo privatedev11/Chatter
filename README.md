@@ -1,5 +1,6 @@
 # Chatter
 A place for all your chatting apps.
+Update: Chatter is on hold right now and won't be receiving updates until further notice.
 
 ### Features
 - Many apps to use which are listed in a lower section.
